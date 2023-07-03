@@ -1,0 +1,22 @@
+baseURL = "/"
+languageCode = "tr-tr"
+title = "Blightto"
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Blightto"
+  description = "Biraz anime biraz Tux"
+  github = "Blightto"
+  email = "blightto@pm.me"
+  url = "https://www.blightto.me"
+  keywords = "blog, linux, özgür yazılım"
+  rss = true
+  lastmod = true
+  favicon = "favicon.png"
+  location = "Turkey"
+  userStatusEmoji = "😀"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
