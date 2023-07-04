@@ -20,3 +20,8 @@ pygmentsUseClasses = true
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.5
